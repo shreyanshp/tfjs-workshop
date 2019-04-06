@@ -20,7 +20,7 @@ class Main {
     this.diversity = 0.5;
     this.inputDiversity = document.getElementById("diversity");
     this.inputDiversity.onchange = (evt) => {
-      this.diversity = evt.target.value/40.
+      this.diversity = evt.target.value/100.
       console.log('diversity changed to', this.diversity);
     }
     this.inputSeed = document.getElementById("seed");
